@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    color: #999;
+}
+a, a:hover {
+    text-decoration: none;
+}
+header {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    border-bottom: 1px solid #A1A1A155;
+    padding-bottom: 30px;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.top-menu_item {
+    margin-left: 40px;
+     color: #fff;
+     font-weight: 500;
+     line-height: 20px;
+ }
+#hero {
+    background: url("https://s8.hostingkartinok.com/uploads/images/2020/03/63346ea45457be0d5c2f608ecbd0a517.png");
+    height: 100vh;
+    display: flex;
+}
+.hero-content {
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+.header-title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    padding: 10px 0 40px;
+}
+.header-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.btn {
+    background: #4985FF;
+    width: 200px;
+    height: 45px;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    color: #fff;
+}
+.second-title {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 64px;
+    text-align: center;
+    padding: 110px 0 50px 0;
+}
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+.icons-top {
+    max-width: 1110px;
+}
+.icons-top button{
+    display: flex;
+    justify-content: center;
+}
+.row {
+    display: flex;
+}
+.col-4 {
+     width: 33.333%;
+     padding: 0 15px;
+     box-sizing: border-box;
+     display: flex;
+}
+.item {
+    display: flex;
+}
+.item .ellipse {
+    margin-top: 80px;
+    width: 110px;
+    height: 110px;
+}
+.item .Ellipse_1{
+    margin-top: 90px;
+    margin-left: -100px;
+    width: 90px;
+    height: 90px;
+}
+.item .group{
+    margin-top: 115px;
+    margin-left: -67px;
+    width: 40px;
+    height: 40px;
+}
+.title_block-img{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 115px;
+    margin-left: 50px;
+}
+.item p{
+    margin-top: 151px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: -170px;
+}
+.icons-top .button {
+    display: flex;
+    justify-content: center;
+    margin: 55px;
+}
+#about {
+    padding: 100px 0 70px;
+}
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+.about-title {
+    padding-top: 52px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+}
+.about-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 40px 0 30px;
+}
+.readMore {
+    line-height: 20px;
+    color: #4985FF;
+    text-decoration: underline;
+}
+.about-list {
+     text-align: center;
+     margin-top: 60px;
+ }
+.about-list-item {
+    display: inline-block;
+    margin: 0 50px;
+}
+.about-list-icon {
+     display: flex;
+     align-items: center;
+ }
+.about-list-icon span{
+    font-size: 36px;
+    line-height: 53px;
+    padding-left: 20px;
+}
+.under-line {
+    position: relative;
+    padding-bottom: 85px;
+}
+.under-line:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    width: calc(100% - 30px);
+    height: 1px;
+    background-color: #e0e0e0;
+}
+#works {
+    position: relative;
+    padding: 100px 0 85px;
+}
+#works:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+}
+.works-header {
+    display: flex;
+    justify-content: space-between;
+}
+.works-header h1{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #fff;
+    padding-bottom: 70px;
+}
+.row .works-row {
+    display: inline-block;
+}
+.works-row h4{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 30px 0;
+}
+.works-row p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+#projects {
+    background-color: #F6F6F8;
+    position: relative;
+}
+.projects-title {
+    display: inline-block;
+    margin: auto;
+}
+.projects-title h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    padding: 100px 0 50px;
+    text-align: center;
+}
+.projects-title {
+    padding-bottom: 70px;
+}
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: flex;
+}
+.project-btn .btn {
+    display: flex;
+    margin: 63px 0 145px;
+    justify-content: center;
+}
+.numbers {
+    color: #4985FF;
+    font-size: 18px;
+    line-height: 22px;
+}
+.btn-projects{
+    background: #4985FF;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    border-style: none;
+    color: #fff;
+    width: 200px;
+    height: 45px;
+    margin-top: 50px;
+    margin-left: 440px;
+    margin-bottom: 130px;
+}
+#video {
+    background: url("https://s8.hostingkartinok.com/uploads/images/2020/03/bfbe406be6b0653183b9fae096969827.png");
+    height: 570px;
+    color: #fff;
+    position: relative;
+}
+#video .second-title {
+    padding-top: 70px;
+}
+#video p {
+    color: #fff;
+    margin-top: -20px;
+}
+.play {
+    height: 430px;
+    max-width: 970px;
+    background: url("https://s8.hostingkartinok.com/uploads/images/2020/03/d51d26f7cfa95463bec85af443bf9b08.png");
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 220px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-btn {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 200px;
+    padding: 20px 40px;
+    color: #fff;
+}
+.icon {
+    width: 60px;
+    height: 60px;
+    background: #4985FF;
+    border-radius: 50%;
+    margin-right: 21px;
+}
+#video .under-line:before {
+    max-width: 1110px;
+    bottom: -550px;
+    margin-bottom: 85px;
+}
+#subscribe {
+    margin-top: 15pc;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form button {
+    width: 190px;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0px 30px 30px 0px;
+    margin-left: -20px;
+}
+.subscribe-title h1{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.subscribe-title p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.form-input{
+    width: 299px;
+    height: 45px;
+    background-color: #fff;
+    padding: 15px 33px 13px;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+}
+.subscribe-title .sb-title {
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    padding: 35px 0 85px;
+}
+#footer {
+    height: 413px;
+    background: #F6F6F8;
+}
+#footer p {
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+}
+#footer .col-3{
+    display: flex;
+    flex-direction: column;
+}
+#footer .col-3 h4{
+    padding: 70px 0 35px;
+}
+#footer .col-3 li {
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    padding: 15px 0 15px;
+    padding-left: 12px;
+}
+.sms {
+    list-style-image: url("https://s8.hostingkartinok.com/uploads/images/2020/03/8b7f5fe89b3383800d7b7ca40390b817.png");
+}
+.number {
+    list-style-image: url("https://s8.hostingkartinok.com/uploads/images/2020/03/e956a11d1379593b6cb813221ac042b3.png");
+}
+.address {
+    list-style-image: url("https://s8.hostingkartinok.com/uploads/images/2020/03/ba3366c79a396ff6e580fe06a2f97b8b.png");
+}
+.footer-link {
+    list-style: none;
+    list-style-image: url(https://s8.hostingkartinok.com/uploads/images/2020/03/c579947a7e0512b56e0e0b2df6a45a57.png);
+}
+
+
